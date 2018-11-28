@@ -5,4 +5,6 @@ main = Blueprint('main', __name__)
 
 @main.route('/hello')
 def home():
-    return "Hello from a Blueprint!"
+    return "Goodbye from a Blueprint!"
+
+
